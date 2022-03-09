@@ -332,3 +332,7 @@ require('feline').setup({
 require('colorizer').setup()
 EOF
 
+augroup trl_group
+    au BufRead,BufNewFile *.trl set filetype=tr-lang
+augroup end
+
